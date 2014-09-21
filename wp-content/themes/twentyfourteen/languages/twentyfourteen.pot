@@ -8,9 +8,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-09-20 19:42+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team:  <LL@li.org>\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e\n"
 
 #: 404.php:17
 msgid "Not Found"
@@ -106,7 +109,7 @@ msgstr ""
 #: content-quote.php:40 content-video.php:40 content.php:42 image.php:34
 #: page-templates/contributors.php:35
 msgid "Edit"
-msgstr ""
+msgstr "Edit 4"
 
 #: content-aside.php:46 content-audio.php:46 content-gallery.php:46
 #: content-image.php:46 content-link.php:46 content-quote.php:46

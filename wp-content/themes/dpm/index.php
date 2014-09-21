@@ -14,7 +14,7 @@
                 <td class="td-first">
                 	<div class="text-block-main">
                     	<div class="text-main">
-                        	<h5>ПОСЛЕДНИЕ <strong>НОВОСТИ</strong></h5>
+                        	<h5><?php _e("ПОСЛЕДНИЕ",'dpm'); ?> <strong><?php _e("НОВОСТИ",'dpm'); ?></strong></h5>
                         	<?php                                                 		 
 										$the_query = new WP_Query( array('category_name' => 'news'));
 										while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
@@ -22,7 +22,7 @@
                             		<a class="news-title" href="<?php the_permalink();?>"><?php the_title();?></a>
                             		<p><?php the_content();?></p> 
                             		<br/>                       
-                            		<p><a class="read-more-on-main" href="/dpm/ru/news/">все новости</a></p>                            		
+                            		<p><a class="read-more-on-main" href="/dpm/ru/news/"><?php _e("все новости",'dpm'); ?></a></p>                            		
 										<?php endwhile; ?>
                         </div>
                 	</div>
@@ -37,12 +37,12 @@
                             		<p class="select"><?php the_title();?></p>
                             		<div class="img-on-main"><?php the_post_thumbnail(80); ?></div>
                             		<p><?php the_excerpt();?></p>                      
-                            		<p><a class="read-more-on-main" href="<?php the_permalink();?>">подробнее</a></p> 
+                            		<p><a class="read-more-on-main" href="<?php the_permalink();?>"><?php _e("подробнее",'dpm'); ?></a></p> 
 										<?php $the_query = new WP_Query('category_name=department');
 										 	$the_query -> the_post(); ?>
                             		<p class="select"><?php the_title();?></p>
                             		<p><?php the_excerpt();?></p>                      
-                            		<p><a class="read-more-on-main" href="<?php the_permalink();?>">подробнее</a></p>                            		
+                            		<p><a class="read-more-on-main" href="<?php the_permalink();?>"><?php _e("подробнее",'dpm'); ?></a></p>                            		
                         </div>
                 	</div>
                 </td>
@@ -51,11 +51,11 @@
                 <td class="td-first">
                 	<div class="text-block-main">
                     	<div class="text-main">
-                        	<h5><strong>СБОРНИК</strong> НАУЧНЫХ ТРУДОВ</h5>
+                        	<h5><?php _e("<strong>СБОРНИК</strong> НАУЧНЫХ ТРУДОВ</h5>",'dpm'); ?></h5>
                   			<img class="img-on-main" src="/dpm/images/onpage/journal_sm.png"  alt="Journal" />
-                            <p> Сборник научных трудов &quot;Динамика и прочность машин&quot; <a href="http://www.kpi.kharkov.ua/">НТУ &quot;ХПИ&quot;</a> основан в 1965 году. В нем публикуются материалы по статической и динамической прочности, надежности и оптимизации элементов конструкций. Предназначен для научных работников и специалистов в области динамики и прочности машин...</p>
+                            <p><?php _e("Сборник научных трудов &quot;Динамика и прочность машин&quot;",'dpm');?> <a href="http://www.kpi.kharkov.ua/">НТУ &quot;ХПИ&quot;</a> основан в 1965 году. В нем публикуются материалы по статической и динамической прочности, надежности и оптимизации элементов конструкций. Предназначен для научных работников и специалистов в области динамики и прочности машин...</p>
                           <p><a class="read-more-on-main" href="/dpm/ru/science/">подробнее</a></p><br />
-                          <p  class="select">Доступные выпуски журнала:</p>
+                          <p  class="select"><?php _e("Доступные выпуски журнала:",'dpm');?></p>
                           
                             <table width="100%" border="0">
                               <tr>
@@ -80,18 +80,18 @@
                 <td class="td-first">
                 	<div class="text-block-main">
                     	<div class="text-main">
-                        	<h5><strong>ОБРАЗОВАНИЕ</strong> НА КАФЕДРЕ</h5>
+                        	<h5><?php _e("<strong>ОБРАЗОВАНИЕ</strong> НА КАФЕДРЕ",'dpm');?></h5>
                         	
                         	<?php $query = new WP_Query( 'name=education' );?>
                            <?php $query->the_post();?> <div class="img-on-main"><?php the_post_thumbnail(90);?></div>
                           <p class="select"><?php the_title();?></p>
 										<?php the_excerpt();?>
-                              <p><a class="read-more-on-main" href="<?php the_permalink();?>">подробнее</a></p><br>
+                              <p><a class="read-more-on-main" href="<?php the_permalink();?>"><?php _e("подробнее",'dpm'); ?></a></p><br>
                               
 											<?php $query = new WP_Query( 'name=employment' );$query->the_post();the_excerpt();?>
-                              <p><a class="read-more-on-main" href="<?php the_permalink();?>">подробнее</a></p><br/>
+                              <p><a class="read-more-on-main" href="<?php the_permalink();?>"><?php _e("подробнее",'dpm'); ?></a></p><br/>
                                 <p><?php $query = new WP_Query( 'name=vacancies' );$query->the_post();the_excerpt();?></p>
-                              <p><a class="read-more-on-main" href="<?php the_permalink();?>">подробнее</a></p>
+                              <p><a class="read-more-on-main" href="<?php the_permalink();?>"><?php _e("подробнее",'dpm'); ?></a></p>
                               
                         </div>
                 	</div>
@@ -101,20 +101,20 @@
                 <td>
                 	<div class="text-block-main">
                     	<div class="text-main">
-                        	<h5>СПЕЦ. СОВЕТ И <strong>СОТРУДНИКИ</strong></h5>
+                        	<h5><?php _e("СПЕЦ. СОВЕТ И <strong>СОТРУДНИКИ</strong>",'dpm');?></h5>
                         		<?php $query = new WP_Query( 'name=council' );?>
                            <?php $query->the_post();?> <div class="img-on-main"><?php the_post_thumbnail(90);?></div>
 										<?php the_excerpt();?>
-                              <p><a class="read-more-on-main" href="<?php the_permalink();?>">подробнее</a></p><br>
+                              <p><a class="read-more-on-main" href="<?php the_permalink();?>"><?php _e("подробнее",'dpm'); ?></a></p><br>
                             <?php $query = new WP_Query( 'name=specialties' );?>
                            <?php $query->the_post();?>
 										<?php the_excerpt();?>
-                              <p><a class="read-more-on-main" href="<?php the_permalink();?>">подробнее</a></p><br>                                                         
-                            <p class="select">Сотрудники кафедры:</p>
+                              <p><a class="read-more-on-main" href="<?php the_permalink();?>"><?php _e("подробнее",'dpm'); ?></a></p><br>                                                         
+                            <p class="select"><?php _e("Сотрудники кафедры:",'dpm'); ?></p>
                             <ul>
-                                <li><a href="<?php bloginfo('url'); ?>/employees/">Преподаватели</a></li>
-                                <li><a href="<?php bloginfo('url'); ?>/employees/researchers/">Научные сотрудники</a></li>
-                                <li><a href="<?php bloginfo('url'); ?>/employees/postgraduates/">Аспиранты</a></li>
+                                <li><a href="<?php bloginfo('url'); ?>/employees/"><?php _e("Преподаватели",'dpm');?></a></li>
+                                <li><a href="<?php bloginfo('url'); ?>/employees/researchers/"><?php _e("Научные сотрудники");?></a></li>
+                                <li><a href="<?php bloginfo('url'); ?>/employees/postgraduates/"><?php _e("Аспиранты"); ?></a></li>
                               </ul>
                         </div>
                 	</div>
@@ -122,7 +122,7 @@
                 <td>
                 	<div class="text-block-main">
                     	<div class="text-main">
-                        	<h5><strong>СТУДЕНТЫ</strong> КАФЕДРЫ</h5>
+                        	<h5><?php _e('<strong>СТУДЕНТЫ</strong> КАФЕДРЫ</h5>','dpm');?></h5>
                             <img class="img-on-main" src="/dpm/images/germany/2005_1.jpg" width="90" height="68" alt="Practice" />
                             <p class="select">Практика студентов:</p>
                             <ul style="margin-left:110px;">

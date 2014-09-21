@@ -5,14 +5,14 @@ msgstr ""
 "Project-Id-Version: Twenty Fourteen 1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/twentyfourteen\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-04-17 16:07+0400\n"
+"PO-Revision-Date: 2014-09-20 19:38+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n%10==1 && n%100!=11) ? 3 : "
 "((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -348,7 +348,7 @@ msgstr "Страницы:"
 #: content-quote.php:40 content-video.php:40 content.php:42 image.php:34
 #: page-templates/contributors.php:35
 msgid "Edit"
-msgstr "Изменить"
+msgstr "Изменить 1"
 
 #: content-aside.php:37 content-audio.php:37 content-gallery.php:37
 #: content-image.php:37 content-link.php:37 content-quote.php:37
@@ -366,7 +366,7 @@ msgstr "1 комментарий"
 #: content-image.php:37 content-link.php:37 content-quote.php:37
 #: content-video.php:37 content.php:38 inc/widgets.php:194
 msgid "% Comments"
-msgstr "Комментарии (%)"
+msgstr "Комментарии 1(%)"
 
 #: content-aside.php:46 content-audio.php:46 content-gallery.php:46
 #: content-image.php:46 content-link.php:46 content-quote.php:46

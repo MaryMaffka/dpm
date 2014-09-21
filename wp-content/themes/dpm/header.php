@@ -1,7 +1,7 @@
 			
       <div id="bg-header">
 				<div id="header">
-					<div id="top-head" height=200><?php wp_nav_menu(array('menu_class' => 'menu-dpm' ));?></div>
+					<div id="top-head" height=200><?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'menu-dpm' ));?></div>
             <?php $code = pll_current_language();?>
 					<div id="img-head">
             

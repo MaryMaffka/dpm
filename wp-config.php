@@ -70,6 +70,7 @@ $table_prefix  = 'wp_';
  * и присвойте WPLANG значение 'ru_RU'.
  */
 define('WPLANG', 'ru_RU');
+define( 'WPLANG', 'uk_UA' );
 
 /**
  * Для разработчиков: Режим отладки WordPress.
