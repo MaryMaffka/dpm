@@ -1,7 +1,7 @@
 <div id="sidebar">
 	<div id="text-block">
 		<div class="top-shadow">
-			<h4>ПОСЛЕДНИЕ НОВОСТИ</h4>
+			<h4><? _e("ПОСЛЕДНИЕ НОВОСТИ");?></h4>
 		</div>
 		<div class="center">
 			<div class="text-entry">
@@ -15,7 +15,7 @@
 			</div>
 		<div class="bottom-shadow">
 			<p>
-				<a class="read-more" href="/dpm/ua/news/">все новости</a>
+				<a class="read-more" href="/dpm/ua/news/"><?php _e("все новости");?></a>
 			</p>
 	   </div>
  </div>

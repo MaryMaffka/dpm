@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dpm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-20 21:22+0300\n"
-"PO-Revision-Date: 2014-09-20 21:31+0300\n"
+"POT-Creation-Date: 2014-09-27 21:35+0300\n"
+"PO-Revision-Date: 2014-09-27 21:36+0300\n"
 "Last-Translator: mary <pmg93@mail,ru>\n"
 "Language-Team:  <test@test.com>\n"
 "Language: uk_UA\n"
@@ -19,59 +19,208 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../index.php:17
-msgid "ПОСЛЕДНИЕ"
-msgstr "ОСТАННІ"
-
-#: ../index.php:17
+#: ../archive.php:13 ../footer.php:43 ../index.php:18
 msgid "НОВОСТИ"
 msgstr "НОВИНИ"
 
-#: ../index.php:25
-msgid "все новости"
-msgstr "всі новини"
+#: ../archive.php:23
+msgid "Дата публикации:"
+msgstr "Дата публікації:"
 
-#: ../index.php:40 ../index.php:45 ../index.php:89 ../index.php:92
-#: ../index.php:94 ../index.php:108 ../index.php:112
+#: ../archive.php:29 ../index.php:41 ../index.php:46 ../index.php:58
+#: ../index.php:90 ../index.php:93 ../index.php:95 ../index.php:109
+#: ../index.php:113 ../index.php:133
 msgid "подробнее"
 msgstr "докладніше"
 
-#: ../index.php:54
+#: ../footer.php:7
+msgid "ГЛАВНАЯ"
+msgstr "ГОЛОВНА"
+
+#: ../footer.php:10
+msgid "КАФЕДРА"
+msgstr "КАФЕДРА"
+
+#: ../footer.php:11
+msgid "О КАФЕДРЕ"
+msgstr "ПРО КАФЕДРУ"
+
+#: ../footer.php:12
+msgid "ИСТОРИЯ"
+msgstr "ІСТОРІЯ"
+
+#: ../footer.php:13
+msgid "ОБРАЗОВАНИЕ"
+msgstr "ОСВІТА"
+
+#: ../footer.php:16
+msgid "СОТРУДНИКИ"
+msgstr "СПІВРОБІТНИКИ"
+
+#: ../footer.php:17
+msgid "ПРЕПОДАВАТЕЛИ"
+msgstr "ВИКЛАДАЧІ"
+
+#: ../footer.php:18
+msgid "НАУЧНЫЕ СОТРУДНИКИ"
+msgstr " НАУКОВІ СПІВРОБІТНИКИ"
+
+#: ../footer.php:19
+msgid "АСПИРАНТЫ"
+msgstr "АСПІРАНТИ"
+
+#: ../footer.php:24
+msgid "СТУДЕНТЫ"
+msgstr "СТУДЕНТИ"
+
+#: ../footer.php:25
+msgid "ЛУЧШИЕ РАБОТЫ"
+msgstr "НАЙКРАЩІ РОБОТИ"
+
+#: ../footer.php:26
+msgid "ПРАКТИКА"
+msgstr "ПРАКТИКА"
+
+#: ../footer.php:27
+msgid "КОНКУРСЫ"
+msgstr "КОНКУРСИ"
+
+#: ../footer.php:28
+msgid "ТРУДОУСТРОЙСТВО"
+msgstr "ПРАЦЕВЛАШТУВАННЯ"
+
+#: ../footer.php:29
+msgid "ВАКАНСИИ"
+msgstr "ВАКАНСІЇ"
+
+#: ../footer.php:30
+msgid "МАТЕРИАЛЫ"
+msgstr "МАТЕРІАЛИ"
+
+#: ../footer.php:33
+msgid "НАУКА"
+msgstr "НАУКА"
+
+#: ../footer.php:34
+msgid "ЖУРНАЛ"
+msgstr "НАУКА"
+
+#: ../footer.php:35
+msgid "ПРОЕКТЫ"
+msgstr "ПРОЕКТИ"
+
+#: ../footer.php:38
+msgid "СПЕЦ. СОВЕТ"
+msgstr "СПЕЦ. РАДА"
+
+#: ../footer.php:39
+msgid "СОСТАВ"
+msgstr "СКЛАД"
+
+#: ../footer.php:40
+msgid "СПЕЦИАЛЬНОСТИ"
+msgstr "СПЕЦІАЛЬНОСТІ"
+
+#: ../footer.php:46
+msgid "КОНТАКТЫ"
+msgstr "КОНТАКТИ"
+
+#: ../footer.php:49
+msgid "Кафедра ДПМ"
+msgstr "Кафедра ДММ"
+
+#: ../footer.php:49
+msgid "Все права защищены &copy; 2011"
+msgstr "Всі права захищені & copy; 2011"
+
+#: ../footer.php:50
+msgid "Дизайн и разработка"
+msgstr "Дизайн та розробка"
+
+#: ../sidebar-cat.php:4
+msgid "Кафедра"
+msgstr "Кафедра"
+
+#: ../header.php:5
+msgid "НТУ “ХПИ”"
+msgstr "НТУ “ХПІ”"
+
+#: ../header.php:6
+msgid "Инженерно-физический факультет"
+msgstr "Інженерно-фізичний факультет"
+
+#: ../header.php:7
+msgid "Кафедра динамики и прочности машин"
+msgstr "Динаміка і міцність машин"
+
+#: ../index.php:18
+msgid "ПОСЛЕДНИЕ"
+msgstr "ОСТАННІ"
+
+#: ../index.php:26 ../sidebar.php:18
+msgid "все новости"
+msgstr "всі новини"
+
+#: ../index.php:34
+msgid "КАФЕДРА <strong>&laquo;ДПМ&raquo;</strong>"
+msgstr "КАФЕДРА <strong>&laquo;ДММ&raquo;</strong>"
+
+#: ../index.php:55
 msgid "<strong>СБОРНИК</strong> НАУЧНЫХ ТРУДОВ</h5>"
 msgstr "<strong> ЗБІРКА </ strong> НАУКОВИХ ПРАЦЬ </ h5>"
 
-#: ../index.php:56
+#: ../index.php:57
 msgid "Сборник научных трудов &quot;Динамика и прочность машин&quot;"
 msgstr "Збірник наукових праць & quot; Динаміка і міцність машин & quot;"
 
-#: ../index.php:58
+#: ../index.php:59
 msgid "Доступные выпуски журнала:"
 msgstr "Доступні випуски журналу:"
 
-#: ../index.php:83
+#: ../index.php:84
 msgid "<strong>ОБРАЗОВАНИЕ</strong> НА КАФЕДРЕ"
 msgstr "<strong> ОСВІТА </ strong> НА КАФЕДРІ"
 
-#: ../index.php:104
+#: ../index.php:105
 msgid "СПЕЦ. СОВЕТ И <strong>СОТРУДНИКИ</strong>"
 msgstr "СПЕЦ. РАДА І <strong> СПІВРОБІТНИКИ </ strong>"
 
-#: ../index.php:113
+#: ../index.php:114
 msgid "Сотрудники кафедры:"
 msgstr "Співробітники кафедри:"
 
-#: ../index.php:115
+#: ../index.php:116
 msgid "Преподаватели"
 msgstr "Викладачі"
 
-#: ../index.php:116
+#: ../index.php:117
 msgid "Научные сотрудники"
 msgstr "Наукові співробітники"
 
-#: ../index.php:117
+#: ../index.php:118
 msgid "Аспиранты"
 msgstr "Аспіранти"
 
-#: ../index.php:125
+#: ../index.php:126
 msgid "<strong>СТУДЕНТЫ</strong> КАФЕДРЫ</h5>"
 msgstr "<strong>СТУДЕНТИ</strong> КАФЕДРИ</h5>"
+
+#: ../index.php:128
+msgid "Практика студентов:"
+msgstr "Практика студентів:"
+
+#: ../index.php:134
+msgid "Последние лучшие работы студентов:"
+msgstr "Останні кращі роботи студентів:"
+
+#: ../index.php:140
+msgid "все работы"
+msgstr "всі роботи"
+
+#: ../sidebar.php:4
+msgid "ПОСЛЕДНИЕ НОВОСТИ"
+msgstr "ОСТАННІ НОВИНИ"
+
+#, fuzzy
+#~ msgid "<strong>НОВОСТИ</strong>"
+#~ msgstr "НОВИНИ"

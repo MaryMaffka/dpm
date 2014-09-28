@@ -1,8 +1,14 @@
-			
       <div id="bg-header">
 				<div id="header">
-					<div id="top-head" height=200><?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'menu-dpm' ));?></div>
+					<div id="top-head" height=200>
+            <div class="link_dpm">
+              <a href="http://www.kpi.kharkov.ua/"><?php _e("НТУ “ХПИ”","dpm"); ?> </a>&nbsp; &gt;&gt;&gt; &nbsp;
+              <a href="http://users.kpi.kharkov.ua/infiz/"><?php _e("Инженерно-физический факультет","dpm");?></a>&nbsp; &gt;&gt;&gt; &nbsp;
+              <a href="<?php bloginfo('url');?>"><?php _e("Кафедра динамики и прочности машин","dpm");?></a>
+            </div>
+            <?php wp_nav_menu(array('theme_location' => 'primary','menu_class' => 'menu-dpm' ));?>
             <?php $code = pll_current_language();?>
+          </div>
 					<div id="img-head">
             
 					 <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="996" height="190">

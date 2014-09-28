@@ -1,6 +1,7 @@
 
 <html <?php language_attributes(); ?>>
 	<head>
+
 		<title><?php bloginfo('name'); wp_title(); ?></title>
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	</head>
@@ -30,16 +31,16 @@
                 <td class="td-first">
                 	<div class="text-block-main">
                     	<div class="text-main">
-                        	<h5>КАФЕДРА <strong>&laquo;ДПМ&raquo;</strong></h5>
+                        	<h5><?php _e("КАФЕДРА <strong>&laquo;ДПМ&raquo;</strong>","dpmd");?></h5>
                          <?php                                                 		 
-										$the_query = new WP_Query('name=history');
-										 $the_query -> the_post(); ?>
+										            $the_query = new WP_Query('name=history');
+										            $the_query -> the_post(); ?>
                             		<p class="select"><?php the_title();?></p>
                             		<div class="img-on-main"><?php the_post_thumbnail(80); ?></div>
                             		<p><?php the_excerpt();?></p>                      
                             		<p><a class="read-more-on-main" href="<?php the_permalink();?>"><?php _e("подробнее",'dpm'); ?></a></p> 
-										<?php $the_query = new WP_Query('category_name=department');
-										 	$the_query -> the_post(); ?>
+										            <?php $the_query = new WP_Query('category_name=department');
+										           	$the_query -> the_post(); ?>
                             		<p class="select"><?php the_title();?></p>
                             		<p><?php the_excerpt();?></p>                      
                             		<p><a class="read-more-on-main" href="<?php the_permalink();?>"><?php _e("подробнее",'dpm'); ?></a></p>                            		
@@ -54,7 +55,7 @@
                         	<h5><?php _e("<strong>СБОРНИК</strong> НАУЧНЫХ ТРУДОВ</h5>",'dpm'); ?></h5>
                   			<img class="img-on-main" src="/dpm/images/onpage/journal_sm.png"  alt="Journal" />
                             <p><?php _e("Сборник научных трудов &quot;Динамика и прочность машин&quot;",'dpm');?> <a href="http://www.kpi.kharkov.ua/">НТУ &quot;ХПИ&quot;</a> основан в 1965 году. В нем публикуются материалы по статической и динамической прочности, надежности и оптимизации элементов конструкций. Предназначен для научных работников и специалистов в области динамики и прочности машин...</p>
-                          <p><a class="read-more-on-main" href="/dpm/ru/science/">подробнее</a></p><br />
+                          <p><a class="read-more-on-main" href="/dpm/ru/science/"><?php _e("подробнее",'dpm'); ?></a></p><br />
                           <p  class="select"><?php _e("Доступные выпуски журнала:",'dpm');?></p>
                           
                             <table width="100%" border="0">
@@ -113,8 +114,8 @@
                             <p class="select"><?php _e("Сотрудники кафедры:",'dpm'); ?></p>
                             <ul>
                                 <li><a href="<?php bloginfo('url'); ?>/employees/"><?php _e("Преподаватели",'dpm');?></a></li>
-                                <li><a href="<?php bloginfo('url'); ?>/employees/researchers/"><?php _e("Научные сотрудники");?></a></li>
-                                <li><a href="<?php bloginfo('url'); ?>/employees/postgraduates/"><?php _e("Аспиранты"); ?></a></li>
+                                <li><a href="<?php bloginfo('url'); ?>/employees/researchers/"><?php _e("Научные сотрудники","dpm");?></a></li>
+                                <li><a href="<?php bloginfo('url'); ?>/employees/postgraduates/"><?php _e("Аспиранты","dpm"); ?></a></li>
                               </ul>
                         </div>
                 	</div>
@@ -124,19 +125,19 @@
                     	<div class="text-main">
                         	<h5><?php _e('<strong>СТУДЕНТЫ</strong> КАФЕДРЫ</h5>','dpm');?></h5>
                             <img class="img-on-main" src="/dpm/images/germany/2005_1.jpg" width="90" height="68" alt="Practice" />
-                            <p class="select">Практика студентов:</p>
+                            <p class="select"><?php _e("Практика студентов:","dpm"); ?></p>
                             <ul style="margin-left:110px;">
                             <li><a href="/dpm/ru/students/practice/sum2012/">&quot;Студенты кафедры ДПМ на практике в Германии&quot; 2012 г. под руководством доц. Ларина А.А.</a></li>
                             <li><a href="/dpm/ru/students/practice/sum2005/">&quot;Студенты кафедры ДПМ на практике в Германии&quot; 2005 г. под руководством доц. Трубаева А.И.</a></li>
                             <li><a href="/dpm/ru/students/practice/sum2001/">&quot;Студенты кафедры ДПМ на практике в Германии&quot; 2001 г. под руководством доц. Овчаренко В.В.</a></li></ul>
-                            <p><a class="read-more-on-main" href="/dpm/ru/students/practice/">подробнее</a></p><br />
-                            <p class="select">Последние лучшие работы студентов:</p>
+                            <p><a class="read-more-on-main" href="/dpm/ru/students/practice/"><?php _e("подробнее",'dpm'); ?></a></p><br />
+                            <p class="select"><?php _e("Последние лучшие работы студентов:","dpm");?></p>
                             <ul>
                                   <li><a href="/dpm/ru/students/2010/chess/">Конкурсная работа &laquo;ШАХМАТЫ&raquo;</a></li>
                                   <li><a href="/dpm/ru/students/2010/engine/">Разработка добавления (add-in) к САПР SolidWorks для автоматизированного проектирования и балансировки КШМ различных схем ДВС</a></li>
                                   <li><a href="/dpm/ru/students/2010/bolt/">Исследование напряженно-деформированного состояния болтового соединения на основе современных подходов</a></li>
                           </ul>
-                            <p><a class="read-more-on-main" href="/dpm/ru/students/">все работы</a></p>
+                            <p><a class="read-more-on-main" href="/dpm/ru/students/"><?php _e("все работы","dpm");?></a></p>
                         </div>
                 	</div>
                 </td>
@@ -145,7 +146,6 @@
     			</div>
     			
     		</div>
-   
     	 	<?php get_footer();?>
 		</div>
 <?php //wp_footer(); ?>

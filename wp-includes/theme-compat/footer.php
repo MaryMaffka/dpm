@@ -1,4 +1,5 @@
 <?php
+echo "hello";
 /**
  * @package WordPress
  * @subpackage Theme_Compat
