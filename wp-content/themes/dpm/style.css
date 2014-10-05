@@ -293,6 +293,7 @@ ul li {
 	background-position:0px 2px;
 	padding-left: 20px;
 	list-style: none;
+	color: #fff;
 }
 
 .img-left{
@@ -578,4 +579,77 @@ td.name {
 }
 #top-head .link_dpm a{
 	font-size: 1em;
+}
+
+/*Personal page*/
+.box_info{
+	overflow: auto;
+}
+
+.main_info{
+	color: #fff;
+	background: #739EC7;
+	width: 400px;
+	float: right;
+	border-radius: 7px;
+	border: 2px solid #055786;
+	padding: 25px;
+	margin-top: 27px;
+	box-shadow: 2px 6px 11px -3px #055786;
+}
+.main_info p{
+	font-size: 1em;
+	line-height: 2em;
+	text-align: center;
+}
+
+.main_info strong{
+	color: #000;
+	display: inline-block;
+	width: 200px;
+	float: left;
+	text-align: left;
+}
+.main_info span{
+	display: inline-block;
+	width: 184px;
+	float: right;
+	text-align: left;
+}
+.header_item_info{
+	width: 100%;
+	background: #324252;
+	margin: 0 auto;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 9px 0;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 1.5em;
+	box-shadow: 2px 6px 11px -1px #055786;
+
+}
+.other_info{
+	margin: 19px 0 0 123px;
+	width: 100%;
+	background: #106EA2;
+	border-radius: 5px;
+	box-shadow: 2px 6px 11px -3px #055786;
+
+}
+.text_item_info{
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	line-height: 1em;
+}
+.lecture_list{
+padding: 14px 0 9px 0px;
+display: block;
+
+}
+.lecture_list li{
+	font-size: 0.9em;
+	line-height: 1.5em;
 }

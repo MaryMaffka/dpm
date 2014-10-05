@@ -1,0 +1,266 @@
+<html lang="ru-RU">
+	<head>
+		<title>dpm &raquo; Львов Геннадий Иванович
+		</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/dpm/style.css">
+	</head>
+	<body>
+		<div class="main">
+		      <div id="bg-header">
+				<div id="header">
+					<div id="top-head" height=200>
+            <div class="link_dpm">
+              <a href="http://www.kpi.kharkov.ua/">НТУ “ХПИ” </a>&nbsp; &gt;&gt;&gt; &nbsp;
+              <a href="http://users.kpi.kharkov.ua/infiz/">Инженерно-физический факультет</a>&nbsp; &gt;&gt;&gt; &nbsp;
+              <a href="http://localhost/wordpress/dpm/ru">Кафедра динамики и прочности машин</a>
+            </div>
+            <div class="menu-menu-ukr-container"><ul id="menu-menu-ukr" class="menu-dpm"><li id="menu-item-152-ua" class="lang-item lang-item-10 lang-item-ua no-translation menu-item menu-item-type-custom menu-item-object-custom menu-item-152-ua"><a href="http://localhost/wordpress/dpm/ua/" hreflang="ua"><img src="http://localhost/wordpress/wp-content/plugins/polylang/flags/uk_UA.png" title="UA" alt="UA" />&nbsp;UA</a></li>
+<li id="menu-item-152-en" class="lang-item lang-item-26 lang-item-en no-translation menu-item menu-item-type-custom menu-item-object-custom menu-item-152-en"><a href="http://localhost/wordpress/dpm/en/" hreflang="en"><img src="http://localhost/wordpress/wp-content/plugins/polylang/flags/en_US.png" title="EN" alt="EN" />&nbsp;EN</a></li>
+</ul></div>                      </div>
+					<div id="img-head">
+            
+					 <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="996" height="190">
+                <param name="movie" value="http://localhost/wordpress/wp-content/themes/dpm/scripts/header-ru.swf" />
+                <param name="quality" value="high" />
+                <param name="wmode" value="opaque" />
+                <param name="swfversion" value="8.0.35.0" />
+                <param name="expressinstall" value="http://localhost/wordpress/wp-content/themes/dpm/scripts/expressInstall.swf" />
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="http://localhost/wordpress/wp-content/themes/dpm/scripts/header-ru.swf" width="996" height="190">
+                  <!--<![endif]-->
+                  <param name="quality" value="high" />
+                  <param name="wmode" value="opaque" />
+                  <param name="swfversion" value="8.0.35.0" />
+                  <param name="expressinstall" value="http://localhost/wordpress/wp-content/themes/dpm/scripts/expressInstall.swf" />
+                  <div>
+                    <img src="http://localhost/wordpress/wp-content/themes/dpm/images/alt-head-ru.jpg" width="996" height="190" alt="Кафедра динамики и прочности машин" />
+                  </div>
+                  <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+              </object>
+					
+					</div>
+				</div>
+				<div id="menu-bg">
+					<div id="menu-bgl">
+						<div id="menu-bgr">
+							<div id="menu">
+								<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900" height="80" id="FlashID2">
+                	 		<param name="movie" value="http://localhost/wordpress/wp-content/themes/dpm/scripts/menu-ru.swf"/>
+                	  		<param name="quality" value="high" />
+                	  		<param name="wmode" value="opaque" />
+                	  		<param name="swfversion" value="8.0.35.0" />
+                	  		<param name="expressinstall" value="http://localhost/wordpress/wp-content/themes/dpm/scripts/expressInstall.swf" />
+
+                	  		<object data="http://localhost/wordpress/wp-content/themes/dpm/scripts/menu-ru.swf" type="application/x-shockwave-flash" width="900" height="80">
+
+                	    	<param name="quality" value="high" />
+                	    	<param name="wmode" value="opaque" />
+                	    	<param name="swfversion" value="8.0.35.0" />
+                	    	<param name="expressinstall" value="http://localhost/wordpress/wp-content/themes/dpm/scripts/expressInstall.swf" />
+								 <div>
+									<ul id="ul-menu">
+                           <li><a href="http://localhost/wordpress/dpm/ru">ГЛАВНАЯ</a></li> 
+                           <li><a href="http://localhost/wordpress/dpm/ru/department/">КАФЕДРА</a>
+                            <ul> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/department/">О кафедре</a></li> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/department/history/">История</a></li> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/department/education/">Образование</a></li> 
+                            </ul>
+                            </li>
+                           <li><a href="http://localhost/wordpress/dpm/ru/employees/">СОТРУДНИКИ</a> 
+                            <ul> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/employees/">Преподаватели</a></li> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/employees/researchers/">Научные сотрудники</a></li> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/employees/postgraduates/">Аспиранты</a></li> 
+                            </ul> 
+                           </li>
+                           <li><a href="http://localhost/wordpress/dpm/ru/students//">СТУДЕНТЫ</a> 
+                            <ul> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/students/">Лучшие работы</a></li> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/students/practice/">Практика</a></li> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/students/competitions/">Конкурсы</a></li>
+                             <li><a href="http://localhost/wordpress/dpm/ru/students/employment/">Трудоустройство</a></li>
+                             <li><a href="http://localhost/wordpress/dpm/ru/students/vacancies/">Вакансии</a></li>
+                             <li><a href="http://localhost/wordpress/dpm/ru/students/downloads/">Материалы</a></li>
+                            </ul> 
+                           </li> 
+                           <li><a href="http://localhost/wordpress/dpm/ru/science/">НАУКА</a> 
+                            <ul> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/science/">Журнал</a></li> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/science/projects/">Проекты</a></li> 
+                            </ul> 
+                           </li> 
+                            <li><a href="http://localhost/wordpress/dpm/ru/council/council/">СПЕЦ. СОВЕТ</a>
+                            <ul> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/council/council/">Состав</a></li> 
+                             <li><a href="http://localhost/wordpress/dpm/ru/council/specialties/">Специальности</a></li> 
+                            </ul>  
+                           </li> 
+                           <li><a href="http://localhost/wordpress/dpm/ru/news/">НОВОСТИ</a></li> 
+                           <li><a href="http://localhost/wordpress/dpm/ru/contacts/">КОНТАКТЫ</a></li> 
+                          </ul>
+								</div> 
+              	    </object>
+              	  </object>
+							
+							</div>						
+						</div>
+					</div>
+					
+				</div>							
+			</div> 
+	
+			<div id="box-content">
+    			<div id="content">
+    				<div id="text-content">
+    					<div id="text-box-content">
+               				<h1 align="center"><strong>Львов Геннадий Иванович</strong></h1><br />
+               				<div class="box_info">
+                				<img src="http://localhost/wordpress/wp-content/uploads/2014/07/lvov-e1404493621116.jpg" alt="lvov" width="150" height="183" class="img-left">
+                				<div class="main_info">
+	            					<p><strong>Дата рождения:</strong><span>30 июля 1943 г.</span></p>
+                					<p><strong>Место рождения:</strong><span>город Харьков</span></p>
+                					<p><strong>E-mail:</strong> <span>LvovGI@kpi.kharkov.ua</span></p>
+										
+                				</div>
+                			</div>
+                				<div class="other_info">
+                					<div class="items_info">
+                						<div class="header_item_info">Звания и должности :</div>
+                						<div class="text_item_info">Доктор технических наук, профессор, зафедующий кафедрой.</div>
+                					</div>	
+                					 <div class="items_info">
+                						<div class="header_item_info">Лекционные курсы : </div>
+                						<ul class="lecture_list">
+                							<li>«Теория упругости»</li>
+                							<li>«Основы механики сплошных сред»</li>
+                							<li>«Реология»</li>
+                							<li>«Теория пластин и оболочек»</li>
+                						</ul>
+                					</div>
+                 					 <div class="items_info">
+                						<div class="header_item_info"> Научные интересы:</div>
+                						<ul class="lecture_list">
+                							<li>«Теория упругости»</li>
+                							<li>«Основы механики сплошных сред»</li>
+                							<li>«Реология»</li>
+                							<li>«Теория пластин и оболочек»</li>
+                						</ul>
+                					</div>	               							
+                				</div>
+                				<p></p>
+  							</div>
+						</div>
+					</div>
+					  			
+				</div>
+				<div id="footer-bg">
+		<div id="footer">
+
+          <table id="table-footer" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td>
+            <p><a class="a-main" href="http://localhost/wordpress/dpm/ru/">ГЛАВНАЯ</a></p>
+            </td>
+            <td>
+            <p><a class="a-main" href="http://localhost/wordpress/dpm/ru/department/">КАФЕДРА</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/department/">О КАФЕДРЕ</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/department/history/">ИСТОРИЯ</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/department/education/">ОБРАЗОВАНИЕ</a></p>
+            </td>
+            <td>
+            <p><a class="a-main" href="http://localhost/wordpress/dpm/ru/employees/">СОТРУДНИКИ</a></p> 
+            <p><a href="http://localhost/wordpress/dpm/ru/employees/">ПРЕПОДАВАТЕЛИ</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/employees/researchers/">НАУЧНЫЕ СОТРУДНИКИ</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/employees/postgraduates/">АСПИРАНТЫ</a></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+            </td>
+            <td>
+            <p><a class="a-main" href="http://localhost/wordpress/dpm/ru/students/">СТУДЕНТЫ</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/students/">ЛУЧШИЕ РАБОТЫ</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/students/practice/">ПРАКТИКА</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/students/competitions/">КОНКУРСЫ</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/students/employment/">ТРУДОУСТРОЙСТВО</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/students/vacancies/">ВАКАНСИИ</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/students/downloads/">МАТЕРИАЛЫ</a></p>
+            </td>
+            <td>
+            <p><a class="a-main" href="http://localhost/wordpress/dpm/ru/science/">НАУКА</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/science/">ЖУРНАЛ</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/science/projects/">ПРОЕКТЫ</a></p>
+            </td>
+            <td>
+            <p><a class="a-main" href="http://localhost/wordpress/dpm/ru/council/">СПЕЦ. СОВЕТ</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/council/">СОСТАВ</a></p>
+            <p><a href="http://localhost/wordpress/dpm/ru/council/specialties/">СПЕЦИАЛЬНОСТИ</a></p>
+            </td>
+            <td>
+            <p><a class="a-main" href="http://localhost/wordpress/dpm/ru/news/">НОВОСТИ</a></p>
+            </td>
+            <td>
+            <p><a class="a-main" href="http://localhost/wordpress/dpm/ru/contacts/">КОНТАКТЫ</a></p>
+            </td>
+            <td class="td-copyright">
+            <p class="copyright"><span class="sel">Кафедра ДПМ </span><br />Все права защищены &copy; 2011<br /><br /><br /><br /><br />
+			Дизайн и разработка <br /><a id="author-site" href="mailto:pozitivnet@gmail.com">Тарасюк Денис</a>
+            </p>
+            </td>
+          </tr>
+        </table>
+		</div>
+</div>
+ 
+								
+          </div>
+ <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext&#038;ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://localhost/wordpress/wp-includes/css/dashicons.min.css?ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://localhost/wordpress/wp-includes/css/admin-bar.min.css?ver=3.9.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/admin-bar.min.js?ver=3.9.1'></script>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs" role="navigation">
+			<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Перейти к верхней панели</a>
+			<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Верхняя панель инструментов." tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/wp-admin/about.php" title="О WordPress"><span class="ab-icon"></span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/about.php">О WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item"  href="http://ru.wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item"  href="http://codex.wordpress.org/Заглавная_страница">Документация</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item"  href="http://ru.forums.wordpress.org/">Форумы поддержки</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item"  href="http://ru.forums.wordpress.org/forum/20">Обратная связь</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/wp-admin/">dpm</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/">Консоль</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/themes.php">Темы</a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2Fwordpress%2Fdpm%2Fru%2Flvov-g-i%3Fpreview%3Dtrue">Настроить</a>		</li>
+		<li id="wp-admin-bar-widgets"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/widgets.php">Виджеты</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/nav-menus.php">Меню</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/update-core.php" title="2 обновления плагинов, 3 обновления тем, Обновления переводов"><span class="ab-icon"></span><span class="ab-label">6</span><span class="screen-reader-text">2 обновления плагинов, 3 обновления тем, Обновления переводов</span></a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/edit-comments.php" title="0 комментариев ожидают проверки"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/wp-admin/post-new.php" title="Добавить"><span class="ab-icon"></span><span class="ab-label">Добавить</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/post-new.php">Запись</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/media-new.php">Медиафайл</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/post-new.php?post_type=page">Страницу</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/user-new.php">Пользователя</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-edit"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/post.php?post=168&#038;action=edit">Редактировать страницу</a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://localhost/wordpress/dpm/ru/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><input type="submit" class="adminbar-button" value="Поиск"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="http://localhost/wordpress/wp-admin/profile.php" title="Моя учётная запись">Привет, admin<img alt='' src='http://0.gravatar.com/avatar/4ee263e98cb6889b84e6d4255b97b22c?s=26&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D26&amp;r=G' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost/wordpress/wp-admin/profile.php"><img alt='' src='http://0.gravatar.com/avatar/4ee263e98cb6889b84e6d4255b97b22c?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>admin</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item"  href="http://localhost/wordpress/wp-admin/profile.php">Изменить профиль</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item"  href="http://localhost/wordpress/wp-login.php?action=logout&#038;_wpnonce=b863b1d2cf">Выйти</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost/wordpress/wp-login.php?action=logout&#038;_wpnonce=b863b1d2cf">Выйти</a>
+					</div>
+
+		</body>
+</html> 
