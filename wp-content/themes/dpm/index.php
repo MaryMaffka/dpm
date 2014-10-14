@@ -8,6 +8,7 @@
 	<body>
 		<div class="main">
 		<?php get_header();?>	
+    <?php $code = pll_current_language();?>
 			<div id="box-content">
     			<div id="content">	
     			<table id="table-main" border="0" cellspacing="0" cellpadding="0">
@@ -17,13 +18,13 @@
                     	<div class="text-main">
                         	<h5><?php _e("ПОСЛЕДНИЕ",'dpm'); ?> <strong><?php _e("НОВОСТИ",'dpm'); ?></strong></h5>
                         	<?php                                                 		 
-										$the_query = new WP_Query( array('category_name' => 'news'));
-										while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+										        $the_query = new WP_Query( array('category_name' => 'news-'.$code));
+										        while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
                             		<p class="date-on-main"><?php the_date();?></p>
                             		<a class="news-title" href="<?php the_permalink();?>"><?php the_title();?></a>
                             		<p><?php the_content();?></p> 
-                            		<br/>                       
-                            		<p><a class="read-more-on-main" href="/dpm/ru/news/"><?php _e("все новости",'dpm'); ?></a></p>                            		
+                            		<br/>                     
+                            		<p><a class="read-more-on-main" href="<?php bloginfo('url');?>/news-<?php echo $code;?>/"><?php _e("все новости",'dpm'); ?></a></p>                            		
 										<?php endwhile; ?>
                         </div>
                 	</div>
@@ -31,7 +32,7 @@
                 <td class="td-first">
                 	<div class="text-block-main">
                     	<div class="text-main">
-                        	<h5><?php _e("КАФЕДРА <strong>&laquo;ДПМ&raquo;</strong>","dpmd");?></h5>
+                        	<h5><?php _e("КАФЕДРА <strong>&laquo;ДПМ&raquo;</strong>","dpm");?></h5>
                          <?php                                                 		 
 										            $the_query = new WP_Query('name=history');
 										            $the_query -> the_post(); ?>
@@ -53,11 +54,16 @@
                 	<div class="text-block-main">
                     	<div class="text-main">
                         	<h5><?php _e("<strong>СБОРНИК</strong> НАУЧНЫХ ТРУДОВ</h5>",'dpm'); ?></h5>
-                  			<img class="img-on-main" src="/dpm/images/onpage/journal_sm.png"  alt="Journal" />
-                            <p><?php _e("Сборник научных трудов &quot;Динамика и прочность машин&quot;",'dpm');?> <a href="http://www.kpi.kharkov.ua/">НТУ &quot;ХПИ&quot;</a> основан в 1965 году. В нем публикуются материалы по статической и динамической прочности, надежности и оптимизации элементов конструкций. Предназначен для научных работников и специалистов в области динамики и прочности машин...</p>
-                          <p><a class="read-more-on-main" href="/dpm/ru/science/"><?php _e("подробнее",'dpm'); ?></a></p><br />
-                          <p  class="select"><?php _e("Доступные выпуски журнала:",'dpm');?></p>
+                          <?php                                                      
+                                $the_query = new WP_Query('category_name=science-'.$code);
+                                //var_dump($the_query);exit();
+                                $the_query -> the_post(); ?>
+                                <div class="img-on-main"><?php the_post_thumbnail(80); ?></div>
+                                <p><?php the_excerpt();?></p>                           
+                          <p><a class="read-more-on-main" href="<?php the_permalink();?>"><?php _e("подробнее",'dpm'); ?></a></p><br />
                           
+
+                          <p  class="select"><?php _e("Доступные выпуски журнала:",'dpm');?></p>
                             <table width="100%" border="0">
                               <tr>
                                 <td>
@@ -127,9 +133,14 @@
                             <img class="img-on-main" src="/dpm/images/germany/2005_1.jpg" width="90" height="68" alt="Practice" />
                             <p class="select"><?php _e("Практика студентов:","dpm"); ?></p>
                             <ul style="margin-left:110px;">
-                            <li><a href="/dpm/ru/students/practice/sum2012/">&quot;Студенты кафедры ДПМ на практике в Германии&quot; 2012 г. под руководством доц. Ларина А.А.</a></li>
-                            <li><a href="/dpm/ru/students/practice/sum2005/">&quot;Студенты кафедры ДПМ на практике в Германии&quot; 2005 г. под руководством доц. Трубаева А.И.</a></li>
-                            <li><a href="/dpm/ru/students/practice/sum2001/">&quot;Студенты кафедры ДПМ на практике в Германии&quot; 2001 г. под руководством доц. Овчаренко В.В.</a></li></ul>
+                              <?php $query = new WP_Query( 'category_name=best_works-'.$code);?>
+                              <?php 
+                              //var_dump($query);exit();
+                              $query->the_post(); 
+                                    the_title();?>
+                              <li><a href="/dpm/ru/students/practice/sum2012/">&quot;Студенты кафедры ДПМ на практике в Германии&quot; 2012 г. под руководством доц. Ларина А.А.</a></li>
+                              <li><a href="/dpm/ru/students/practice/sum2005/">&quot;Студенты кафедры ДПМ на практике в Германии&quot; 2005 г. под руководством доц. Трубаева А.И.</a></li>
+                              <li><a href="/dpm/ru/students/practice/sum2001/">&quot;Студенты кафедры ДПМ на практике в Германии&quot; 2001 г. под руководством доц. Овчаренко В.В.</a></li></ul>
                             <p><a class="read-more-on-main" href="/dpm/ru/students/practice/"><?php _e("подробнее",'dpm'); ?></a></p><br />
                             <p class="select"><?php _e("Последние лучшие работы студентов:","dpm");?></p>
                             <ul>

@@ -1,7 +1,7 @@
 <div id="sidebar">
 	<div id="text-block">
 		<div class="top-shadow">
-			<h4><? _e("ПОСЛЕДНИЕ НОВОСТИ");?></h4>
+			<h4><?php _e("ПОСЛЕДНИЕ НОВОСТИ","dpm");?></h4>
 		</div>
 		<div class="center">
 			<div class="text-entry">

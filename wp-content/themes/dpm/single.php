@@ -11,7 +11,7 @@
     				<div id="content">
     					<div id="text-content">    				
     						<div id="text-box-content">    					
-               			<?php echo "single";           			
+               			<?php       			
                			if(have_posts()) {the_post(); ?>
 									<h1 style="text-transform: uppercase;"><strong><?php the_title();?></strong></h1><br />
                 				<p><?php the_content();?></p> 

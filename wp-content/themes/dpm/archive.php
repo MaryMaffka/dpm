@@ -9,15 +9,20 @@
 			<div id="box-content">		
     				<div id="content">
     					<div id="text-content">    				
-    						<div id="text-box-content"> 
-    						 <h1><strong><?php _e("НОВОСТИ","dpm"); ?></strong></h1><br />
-          					<table class="students" border="0" cellspacing="0" cellpadding="0">
-          					
+    						<div id="text-box-content">  					
 								<?php 
-										$category = get_the_category();
-										$name = $category[0]->slug;
-										if(is_category('news') || is_category('students')) { 
-										$the_query = new WP_Query( array('category_name' => $name));
+									$category = get_the_category();	
+									$slug = $category[0]->slug;
+									//print_r($category);exit();
+									if(is_category('news-ru') || is_category('students-ru')){
+										if(is_category('students-ru')){?>
+    						 				<h1><?php _e('СТУДЕНТЫ КАФЕДРЫ.<strong>ЛУЧШИЕ РАБОТЫ</strong><','dpm');?>/h1><br/>
+    						 			<?php }else {?>
+    						 				<h1><?php echo $category[0]->cat_name;?>/h1><br/>
+    									<?php } ?>
+          							<table class="students" border="0" cellspacing="0" cellpadding="0">										
+										<?php
+										$the_query = new WP_Query( array('category_name' => $slug));
 										while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 											<tr>
 												<td class="td-image-st"><p class="date"><?php _e("Дата публикации:","dpm" );?><?php the_date();?></p><br/>
